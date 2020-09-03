@@ -11,7 +11,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 
         // 2. Display result
         document.querySelector('.dice').style.display = 'block';
-        document.querySelector('.dice').src = '/images/dice-' + dice + '.png';
+        document.querySelector('.dice').src = 'images/dice-' + dice + '.png';
 
         // 3. Update the round score if the rolled number not a 1
         if (dice !== 1) {
